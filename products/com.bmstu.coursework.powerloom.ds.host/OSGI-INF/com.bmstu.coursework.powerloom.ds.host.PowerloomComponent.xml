@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" activate="activate" deactivate="deactivate" enabled="true" immediate="true" modified="modify" name="com.bmstu.coursework.powerloom.ds.host.PowerloomComponent">
+   <property name="service.exported.interfaces" value="*"/>
+   <property name="service.exported.configs" value="ecf.jaxrs.jersey.server"/>
+   <property name="ecf.jaxrs.jersey.server.urlContext" value="http://localhost:8080"/>
+   <property name="ecf.jaxrs.jersey.server.alias" value="/powerloom"/>
+   <property name="service.pid" value="com.bmstu.coursework.powerloom.ds.host.PowerloomComponent"/>
+   <implementation class="com.bmstu.coursework.powerloom.ds.host.PowerloomComponent"/>
+   <service>
+      <provide interface="ru.agentlab.powerloom.IPowerloomServer"/>
+      <provide interface="org.osgi.service.cm.ManagedService"/>
+   </service>
+</scr:component>

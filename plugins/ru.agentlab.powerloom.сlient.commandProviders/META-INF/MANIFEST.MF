@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CommandProviders
+Bundle-SymbolicName: ru.agentlab.powerloom._lient.commandProviders;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: COURSEWORK
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.osgi;bundle-version="3.11.1"
+Export-Package: ru.agentlab.powerloom.client.commandProviders
+Import-Package: org.osgi.service.component.annotations;version="1.2.0",
+ ru.agentlab.powerloom,
+ ru.agentlab.powerloom.model
+Service-Component: OSGI-INF/com.bmstu.coursework.powerloom.commandProviders.xml
+Bundle-ActivationPolicy: lazy
