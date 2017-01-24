@@ -10,3 +10,4 @@ Import-Package: org.osgi.service.component.annotations;version="1.2.0",
 Bundle-ActivationPolicy: lazy
 Service-Component: OSGI-INF/com.bmstu.coursework.powerloom.client.xml
 Export-Package: ru.agentlab.powerloom.client
+Require-Bundle: org.eclipse.osgi;bundle-version="3.11.1"

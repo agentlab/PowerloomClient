@@ -144,7 +144,6 @@
       <plugin id="org.slf4j.log4j"/>
       <plugin id="org.tukaani.xz"/>
       <plugin id="ru.agentlab.powerloom"/>
-      <plugin id="ru.agentlab.powerloom._lient.commandProviders"/>
       <plugin id="ru.agentlab.powerloom.client"/>
       <plugin id="ru.agentlab.powerloom.model"/>
    </plugins>
